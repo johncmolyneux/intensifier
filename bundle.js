@@ -10055,6 +10055,7 @@
 	  }, {
 	    key: 'drawCreditText',
 	    value: function drawCreditText(context) {
+		  return;
 	      var msg = "© aikdanai.com/intensifier";
 	      var fontSize = 0.05 * canvasSize.height;
 	      context.font = fontSize + "px Arial";
