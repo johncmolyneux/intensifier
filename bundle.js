@@ -10076,8 +10076,8 @@
 	      context.textAlign = "center";
 	      context.fillStyle = getRGBAstring(this.textColor);
 	      context.strokeStyle = getRGBAstring(this.strokeColor);
-	      context.strokeText(msg, canvasSize.width / 2, canvasSize.height - canvasSize.height / 10);
-	      context.fillText(msg, canvasSize.width / 2, canvasSize.height - canvasSize.height / 10);
+	      context.strokeText(msg, canvasSize.width / 2, canvasSize.height - canvasSize.height / 11);
+	      context.fillText(msg, canvasSize.width / 2, canvasSize.height - canvasSize.height / 11);
 	      this.drawCreditText(context);
 	    }
 	  }, {
